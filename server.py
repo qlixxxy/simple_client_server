@@ -94,6 +94,3 @@ class Server:
             separator, address[0], address[1], separator
         )
         print(formatted_text)
-
-server_1 = Server("127.0.0.1", 6060)
-server_1.receiving_mode()

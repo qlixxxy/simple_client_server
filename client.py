@@ -33,6 +33,3 @@ class Client:
         for index, info in self.server_responses.items():
             info = "".join(info)
             print(f'Client {index} got "{info}" message from server')
-
-s = Client(10)
-s.get_request("127.0.0.1", 6060, "groovestreet.txt", True)
